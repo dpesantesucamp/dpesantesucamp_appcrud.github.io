@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Set the background color of body to tan */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario {
+    padding-top: 10px;
+    width: 300px;
+    height: 225px;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #000;
+    height: 130px;
+    padding-left: 10px;
+    display: block;
+    color: blue;
+}
+
+.img_social_footer {
+    height: 30px;
+    padding-top: 5px;
+}
+
+.img-responsive {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+      background: blue;
+    }
+  }
+  
+  @media screen and (min-width: 640px) and (max-width: 1280px) {
+    body {
+      background: red;
+    }
+  }
+  
+  /* @media screen and (min-width: 1280px) {
+    body {
+      background: green;
+    }
+  } */

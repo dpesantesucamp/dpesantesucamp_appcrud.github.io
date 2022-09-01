@@ -1,0 +1,21 @@
+.navbar {
+    overflow: hidden;
+    background-color: #000;
+    height: 70px;
+    display: block;
+}
+
+.contenedor-imagen {
+    float: left;
+}
+
+.contenedor-lista-1 {
+    float: left;    
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.contenedor-lista-2 {
+    float: right;
+    padding-top: 25px;
+}
